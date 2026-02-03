@@ -15,11 +15,11 @@ export default defineNuxtConfig({
         head: {
             title: 'The company\'s business name is: Kivenko s.r.o.',
             link: [
-                { rel: 'canonical', href: 'https://cargocs.netlify.app' }
+                { rel: 'canonical', href: 'https://kivenkosro.cz' }
             ],
             meta: [
                 // <meta name="viewport" content="width=device-width, initial-scale=1">
-                {name: "google-site-verification", content: "3PYM3TfL_GtQkBNeopppCRj5IDcdOGE5CDGMLYTz7EM"},
+             //   {name: "google-site-verification", content: "3PYM3TfL_GtQkBNeopppCRj5IDcdOGE5CDGMLYTz7EM"},
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' }
             ],
             script: [
@@ -102,6 +102,16 @@ export default defineNuxtConfig({
     ],
     schemaOrg: {
         identity: 'Organization',
+    },
+    sitemap: {
+        hostname: 'https://kivenkosro.cz',
+        gzip: true,
+        routes: [
+            '/',
+            '/about',
+            '/contact',
+            '/blog'
+        ]
     },
     seo: {
         meta: {

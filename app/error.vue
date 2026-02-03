@@ -21,7 +21,7 @@ function goBack() {
     <div class="text-center">
       <h1><a href="/" class="!mt-4 !text-3xl !font-bold !tracking-tight !text-white !sm:text-5xl">
         {{ error.statusCode }}
-        <NuxtImg src="/images/vintage_truck.svg" alt="Obchodní firma společnosti zní: Kivenko s.r.o."
+        <img src="/images/vintage_truck.svg" alt="Obchodní firma společnosti zní: Kivenko s.r.o."
                  title="Obchodní firma společnosti zní: Kivenko s.r.o." class="logo_img"/>
         <p>Obchodní firma společnosti zní: Kivenko s.r.o.</p>
       </a></h1>
