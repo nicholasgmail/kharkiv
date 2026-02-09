@@ -2,155 +2,140 @@
 
 </script>
 <template>
-  <!-- Main -->
-  <section id="main">
-    <div class="container">
-      <div class="row gtr-200">
-        <div class="col-12">
-          <!-- Highlight -->
-          <section class="box highlight">
-            <ul class="special">
-              <li><a class="icon solid fa-search"><span class="label">Magnifier</span></a></li>
-              <li><a class="icon solid fa-tablet-alt"><span class="label">Tablet</span></a></li>
-              <li><a class="icon solid fa-flask"><span class="label">Flask</span></a></li>
-              <li><a class="icon solid fa-cog"><span class="label">Cog?</span></a></li>
-            </ul>
-            <header>
-              <h2>{{ $t('Transportation of things') }}</h2>
-              <p>{{ $t('Do you need to transport things?') }}</p>
-            </header>
+    <!-- Wrapper -->
+    <section id="wrapper">
+      <!-- One -->
+      <section id="one" class="wrapper spotlight style1">
+        <div class="inner">
+          <a href="#" class="image"><img
+              src="/images/vidil/department_1.jpeg"
+              title="Ми надаємо послуги медичної реабілітації у Харкові для дорослих та дітей."
+              alt="Медична реабілітація у Харкові — відновлення та ЛФК" /></a>
+          <div class="content">
+            <h2 class="major">Медична реабілітація у Харкові — відновлення та ЛФК</h2>
             <p>
-              {{ $t('We offer professional transportation of goods throughout Prague and the surrounding area. Whether you are moving a few boxes, new furniture from the store, a refrigerator or an old washing machine - we will take care of fast and safe transportation. We are reliable, flexible and affordable.') }}
+              Ми надаємо послуги медичної реабілітації у Харкові для дорослих та дітей.
+              Програми ЛФК, відновлення після травм і операцій у комфортному та добре обладнаному центрі.
             </p>
-          </section>
-
+           </div>
         </div>
-        <div class="col-12">
+      </section>
 
-          <!-- Features -->
-          <section class="box features">
-            <div>
-              <div class="row">
-                <div class="col-auto">
-                  <div class="elementor-widget-container">
-                    <h3><strong>
-                      <span style="visibility: inherit !important;">
-                        {{ $t('✅ Why choose us?') }}
-                      </span>
-                    </strong></h3>
-                    <ul>
-                      <li><strong>
-                        <span style="visibility: inherit !important;">{{ $t('Quick response') }}
-                        </span>
-                      </strong>
-                        <span style="visibility: inherit !important;">{{ $t(' – in most cases we leave the same day')}}
-                        </span>
-                      </li>
-                      <li><strong>
-                        <span style="visibility: inherit !important;">{{ $t('Flexibility')}}
-                        </span>
-                      </strong>
-                        <span style="visibility: inherit !important;">
-                          {{ $t(' – we also work in the evenings, on weekends and without additional charges')}}
-                        </span>
-                      </li>
-                      <li><strong>
-                        <span style="visibility: inherit !important;">{{ $t('Insurance')}}
-                        </span>
-                      </strong>
-                        <span style="visibility: inherit !important;">{{ $t(' – your property is fully insured during transport')}}
-                        </span>
-                      </li>
-                      <li><strong>
-                        <span style="visibility: inherit !important;">{{ $t('Experiences')}}
-                        </span>
-                      </strong>
-                        <span style="visibility: inherit !important;">
-                          {{ $t(' – we have hundreds of successfully completed projects') }}
-                        </span>
-                      </li>
-                      <li><strong>
-                        <span style="visibility: inherit !important;">{{ $t('Local knowledge of Prague')}}
-                        </span>
-                      </strong>
-                        <span style="visibility: inherit !important;">{{ $t(' – we know where to park and how to avoid rush hour traffic')}}
-                        </span>
-                      </li>
-                    </ul>
-                    <hr>
-                    <h3><strong>
-                      <span style="visibility: inherit !important;">{{ $t('📦 Who is the service intended for?')}}
-                      </span>
-                    </strong></h3>
-                    <span style="visibility: inherit !important;">{{ $t('Our service')}}
-                    </span>
-                    <strong>
-                      <span style="visibility: inherit !important;">{{ $t('transportation of goods in Prague')}}
-                      </span>
-                    </strong>
-                    <span style="visibility: inherit !important;">{{ $t('is suitable for both individuals and companies:')}}
-                    </span>
-                    <ul>
-                      <li>
-                        <span style="visibility: inherit !important;">{{ $t('Are you moving to a new apartment and need to transport furniture?')}}
-                        </span>
-                      </li>
-                      <li>
-                        <span style="visibility: inherit !important;">{{ $t('You bought a washing machine and you have no way to get it home?')}}
-                        </span>
-                      </li>
-                      <li>
-                        <span style="visibility: inherit !important;">{{ $t('Do you need to move things between offices?')}}
-                        </span>
-                      </li>
-                      <li>
-                        <span style="visibility: inherit !important;">{{ $t('Do you have an e-shop and are you looking for a regular partner for delivery of goods?')}}
-                        </span>
-                      </li>
-                    </ul>
-                    <span style="visibility: inherit !important;">{{ $t('You have come to the right place.')}}
-                    </span>
-                    <span style="visibility: inherit !important;">{{ $t('We offer one-time and long-term services with the possibility of contractual cooperation.')}}
-                    </span>
-                    <hr>
-                    <h3>
-                      <span style="visibility: inherit !important;">{{ $t('Order a transfer quickly and easily')}}
-                      </span>
-                    </h3>
-                    <span style="visibility: inherit !important;">{{ $t('Just call or write to us.')}}
-                    </span>
-                    <span style="visibility: inherit !important;">{{ $t('You tell us what and when you need to transport, and we will take care of everything.')}}
-                    </span>
-                    <span style="visibility: inherit !important;">{{ $t('We will provide a suitable vehicle, staff and materials.')}}
-                    </span>
-                    <strong>
-                      <span style="visibility: inherit !important;">{{ $t('We provide transportation throughout Prague and its surroundings')}}
-                      </span>
-                    </strong>
-                    <span style="visibility: inherit !important;">{{ $t('on the same day.📱')}}
-                    </span>
-                    <strong>
-                      <span style="visibility: inherit !important;">{{ $t('on the same day.📱')}}
-                      </span>
-                    </strong>
-                    <span style="visibility: inherit !important;"> <a href="tel:+420722767091">+420 722 767 091</a> 📧
-                    </span>
-                    <strong>
-                      <span style="visibility: inherit !important;">E-mail:
-                      </span>
-                    </strong>
-                    <span style="visibility: inherit !important;"><a href="mailto:kivenko1997@meta.ua">kivenko1997@meta.ua</a>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
+      <!-- Two -->
+      <section id="two" class="wrapper alt spotlight style2">
+        <div class="inner">
+          <a href="#" class="image">
+            <img src="/images/vidil/department_2.jpeg"
+                 title="Надаємо безкоштовні засоби реабілітації у Харкові в межах державних та соціальних програм"
+                 alt="Безкоштовне забезпечення засобами реабілітації у Харкові" /></a>
+          <div class="content">
+            <h2 class="major">Безкоштовне забезпечення засобами реабілітації у Харкові</h2>
+            <p>
+              Надаємо безкоштовні засоби реабілітації у Харкові в межах державних та соціальних програм.
+              Коляски, ходунки, тренажери та інші допоміжні засоби для осіб з обмеженими можливостями.
+            </p>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
+      <!-- Three -->
+      <section id="three" class="wrapper spotlight style3">
+        <div class="inner">
+          <a href="#" class="image">
+            <img src="/images/vidil/department_5.jpeg"
+                 title=""
+                 alt="" /></a>
+          <div class="content">
+            <h2 class="major">Порядок забезпечення</h2>
+            <p>
+              Для забезпечення допоміжними засобами реабілітації до територіального відділення Фонду (СОБЕЗ), ОТГ, ЦНАП разом із заявою подаються такі документи:
+              (згідно постанови КМУ від 05.04.2012 №321 зі змінами)
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Four -->
+      <section id="four" class="wrapper alt style1">
+        <div class="inner">
+          <h2 class="major">Центр протезування «Ортопед»</h2>
+          <h3>Консультація та підбір протезно-ортопедичних виробів у Харкові</h3>
+          <p>
+            Консультація є першим і найважливішим етапом процесу протезування.
+            Під час огляду пацієнта фахівці оцінюють стан здоров’я, рівень мобільності,
+            визначають оптимальний тип протезно-ортопедичного виробу, конструкцію,
+            індивідуальні потреби та умови подальшого використання.
+          </p>
+          <p>
+            Професійний підбір протезно-ортопедичних виробів у Харкові забезпечує комфорт,
+            безпеку та ефективну адаптацію пацієнта до повсякденного життя.
+          </p>
+          <section class="features">
+            <article>
+              <a href="https://tovortoped.com.ua/ua/protezuvannya-na-nashomu-pidpriemstvi"
+                 target="_blank"
+                 class="image">
+                <img
+                    style="height: 21rem; object-fit: cover;"
+                    src="https://tovortoped.com.ua/assets/images/22.png"
+                    title="Додаткові документи для військовослужбовців"
+                    alt="Додаткові документи для військовослужбовців" /></a>
+              <h3 class="major">Додаткові документи для військовослужбовців</h3>
+              <p>Після формування електронного направлення пацієнту необхідно звернутися безпосередньо на підприємство.</p>
+              <a href="https://tovortoped.com.ua/ua/protezuvannya-na-nashomu-pidpriemstvi"
+                 target="_blank"
+                 class="special">Читати</a>
+            </article>
+            <article>
+              <a href="https://tovortoped.com.ua/ua/kontakti/" target="_blank" class="image">
+                <img src="https://tovortoped.com.ua/assets/site/img/technician.jpg"
+                     style="height: 21rem; object-fit: cover;"
+                     title="послуги протезування по всій Україні"
+                     alt="Cучасне протезне підприємство" /></a>
+              <h3 class="major">З нами</h3>
+              <p>Ми — сучасне протезне підприємство, що надає послуги протезування по всій Україні.
+                Наша мережа відділень працює у багатьох містах, щоб зробити протезування доступним,
+                зручним та максимально наближеним до кожного пацієнта.</p>
+              <a href="https://tovortoped.com.ua/ua/kontakti/" target="_blank" class="special">Читати</a>
+            </article>
+            <article>
+              <a href="https://tovortoped.com.ua/ua/bezkoshtovno-dlya-veteraniv-ukraini-socialna-programa-pidtrimki" class="image">
+                <img src="https://tovortoped.com.ua/assets/images/protez_all/pacient_sport42.jpg"
+                     style="height: 21rem; object-fit: cover;"
+                     title="ТОВ «Ортопед» надає безкоштовну допомогу ветеранам та військовослужбовцям"
+                     alt="Для ветеранів" /></a>
+              <h3 class="major">Для ветеранів</h3>
+              <p>
+                ТОВ «Ортопед» надає безкоштовну допомогу ветеранам та військовослужбовцям: протези, ортопедичні вироби, консультації та реабілітацію.
+                Комфорт, впевненість та природний зовнішній вигляд для тих, хто захищав Україну.
+              </p>
+              <a href="https://tovortoped.com.ua/ua/bezkoshtovno-dlya-veteraniv-ukraini-socialna-programa-pidtrimki"
+                 target="_blank"
+                 class="special">Читати</a>
+            </article>
+            <article>
+              <a href="https://tovortoped.com.ua/ua/individualnij-pidhid-u-ortopedii-ta-protezuvanni" class="image">
+                <img src="https://tovortoped.com.ua/assets/images/protez_all/prosthetic5.jpg"
+                     style="height: 21rem; object-fit: cover;"
+                     title="Індивідуальний підхід"
+                     alt="ТОВ «Ортопед» має власне виробництво ортопедичних та протезних виробів" /></a>
+              <h3 class="major">Індивідуальний підхід</h3>
+              <p>ТОВ «Ортопед» має власне виробництво ортопедичних та протезних виробів, що дозволяє контролювати кожен етап створення продукції.</p>
+              <a href="https://tovortoped.com.ua/ua/individualnij-pidhid-u-ortopedii-ta-protezuvanni" class="special">Читати</a>
+            </article>
+          </section>
+          <ul class="actions">
+            <li><a href="https://tovortoped.com.ua"
+                   target="_blank"
+                   class="button">Центр протезування</a></li>
+          </ul>
+        </div>
+      </section>
+      <section id="sex" class="wrapper  alt spotlight style2">
+        <div class="inner">
+          <iframe src="https://www.google.com/maps/d/embed?mid=1H4Izx-gnWPXm8WGKqZm3AtOUdcvKoSE&ehbc=2E312F" width="100%" height="620"></iframe>
+        </div>
+      </section>
+    </section>
 </template>
 <style scoped></style>

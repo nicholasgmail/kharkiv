@@ -6,12 +6,12 @@ export default defineEventHandler(async (event) => {
 
     // Налаштування SMTP
     const transporter = nodemailer.createTransport({
-        host: "smtp.gmail.com", // або свій SMTP
+        host: "mail.adm.tools", // або свій SMTP
         port: 587,
         secure: false,
         auth: {
-            user: "polinoburatino@gmail.com", // пошта
-            pass: "GjinfUeuk87"  // пароль або App Password
+            user: "tovortoped@gmail.com", // пошта
+            pass: "invatex5000"  // пароль або App Password
         },
     })
 

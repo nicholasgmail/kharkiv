@@ -42,15 +42,6 @@
 
 	// Nav.
 
-		// Title Bar.
-			$(
-				'<div id="titleBar">' +
-					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">Kivenko s.r.o.</span>' +
-				'</div>'
-			)
-				.appendTo($body);
-
 		// Panel.
 			$(
 				'<div id="navPanel">' +

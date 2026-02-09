@@ -1,9 +1,0 @@
-@import "tailwindcss";
-
-@tailwind utilities;
-
-
-h2.major span {
-    background: #f2f5f3;
-    color: #C1CAC5;
-}

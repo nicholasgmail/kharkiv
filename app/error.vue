@@ -21,12 +21,8 @@ function goBack() {
     <div class="text-center">
       <h1><a href="/" class="!mt-4 !text-3xl !font-bold !tracking-tight !text-white !sm:text-5xl">
         {{ error.statusCode }}
-        <img src="/images/vintage_truck.svg" alt="Obchodní firma společnosti zní: Kivenko s.r.o."
-                 title="Obchodní firma společnosti zní: Kivenko s.r.o." class="logo_img"/>
-        <p>Obchodní firma společnosti zní: Kivenko s.r.o.</p>
       </a></h1>
       <p class="mt-6 text-base leading-7 text-neutral-600">
-        Sorry, we couldn’t find the page you’re looking for.
       </p>
       <div class="mt-10 flex items-center justify-center gap-x-6">
         <NuxtLink

@@ -1,21 +1,21 @@
 
 export default defineNuxtConfig({
-    compatibilityDate: '2025-10-04',
+    compatibilityDate: '2026-02-03',
     ssr: false,
     devServer: {
         host: '0.0.0.0',
         port: 3000
     },
     css: [
-        '@/assets/css/main.css',
-        '@/assets/css/tailwind.css'
+        '/assets/css/main.css',
+        '/assets/css/noscript.css'
     ],
     app: {
         baseURL: '/',
         head: {
-            title: 'The company\'s business name is: Kivenko s.r.o.',
+            title: 'Харків ортопед',
             link: [
-                { rel: 'canonical', href: 'https://kivenkosro.cz' }
+               // { rel: 'canonical', href: 'https://0.0.0.0' }
             ],
             meta: [
                 // <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,28 +24,27 @@ export default defineNuxtConfig({
             ],
             script: [
                 // <script src="https://myawesome-lib.js"></script>
-                {src: '/js/jquery.min.js', tagPosition: "bodyClose"},
-                {src: '/js/jquery.dropotron.min.js', tagPosition: "bodyClose"},
-                {src: '/js/jquery.scrolly.min.js', tagPosition: "bodyClose"},
-                {src: '/js/browser.min.js', tagPosition: "bodyClose"},
-                {src: '/js/breakpoints.min.js', tagPosition: "bodyClose"},
-                {src: '/js/util.js', tagPosition: "bodyClose"},
-               // {src: '/js/main.js', tagPosition: "bodyClose"},
+                {src: "/assets/js/jquery.min.js", tagPosition: "bodyClose"},
+                {src: "/assets/js/jquery.scrollex.min.js", tagPosition: "bodyClose"},
+                {src: "/assets/js/browser.min.js", tagPosition: "bodyClose"},
+                {src: "/assets/js/breakpoints.min.js", tagPosition: "bodyClose"},
+                {src: "/assets/js/util.js", tagPosition: "bodyClose"},
+                {src: "/assets/js/main.js", tagPosition: "bodyClose"}
             ],
             // please note that this is an area that is likely to change
             style: [
                 // <style>:root { color: red }</style>
-                {textContent: ':root { color: red }'}
+                //{textContent: ':root { color: red }'}
             ],
             noscript: [
                 // <noscript>JavaScript is required</noscript>
-                {textContent: 'cargo'}
+                //{textContent: 'cargo'}
             ]
         },
     },
     postcss: {
         plugins: {
-            '@tailwindcss/postcss': {},
+            //'@tailwindcss/postcss': {},
             autoprefixer: {},
         },
     },
@@ -85,12 +84,12 @@ export default defineNuxtConfig({
         },
 
         // Proxy (наприклад, для API бекенду)
-        devProxy: {
-            '/api/': {
-                target: 'http://localhost:4000',
-                changeOrigin: true
-            }
-        }
+        //devProxy: {
+        //    '/api/': {
+        //        target: 'http://localhost:4000',
+        //        changeOrigin: true
+        //    }
+        //}
     },
     modules: [
         '@nuxt/image',
@@ -104,29 +103,29 @@ export default defineNuxtConfig({
         identity: 'Organization',
     },
     sitemap: {
-        hostname: 'https://kivenkosro.cz',
-        gzip: true,
-        routes: [
-            '/',
-            '/about',
-            '/contact',
-            '/blog'
-        ]
+        //hostname: '0.0.0.0',
+        //gzip: true,
+        //routes: [
+        //    '/',
+        //    '/about',
+        //    '/contact',
+        //    '/blog'
+        //]
     },
     seo: {
         meta: {
-            description: 'The company\'s business name is: Kivenko s.r.o.',
+            description: 'Харків ортопед',
         },
     },
     i18n: {
-        strategy: 'prefix_except_default',
-        locales: [
-            {code: 'cs', name: 'Čeština', iso: 'cs-CZ', file: 'cs.json'},
-            {code: 'en', name: 'English', iso: 'en-US', file: 'en.json'}
-        ],
-        defaultLocale: 'cs',
-        lazy: true,
-        vueI18n: './i18n.config.ts',
-        langDir: 'locales/'
+        //strategy: 'prefix_except_default',
+       // locales: [
+       //     {code: 'cs', name: 'Čeština', iso: 'cs-CZ', file: 'cs.json'},
+       //     {code: 'en', name: 'English', iso: 'en-US', file: 'en.json'}
+       // ],
+       // defaultLocale: 'cs',
+       // lazy: true,
+       // vueI18n: './i18n.config.ts',
+       // langDir: 'locales/'
     }
 })
